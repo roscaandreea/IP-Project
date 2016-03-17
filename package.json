@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vows test/* --spec",
     "start": "node server.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/roscaandreea/notepad/issues"
   },
-  "homepage": "https://github.com/roscaandreea/notepad#readme"
+  "homepage": "https://github.com/roscaandreea/notepad#readme",
+  "devDependencies": {
+    "vows": "^0.8.1"
+  }
 }
